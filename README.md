@@ -11,7 +11,7 @@ go run cloudflare.go
 
 Menambahkan IP ke daftar `block`.
 ```sh
-go run cloudflare.go --mode block --ip 198.51.100.4 --notes "your note"
+go run cloudflare.go --mode block --ip 198.51.100.4 --notes "bruteforce"
 ```
 
 Menghapus IP dari daftar `block`.
